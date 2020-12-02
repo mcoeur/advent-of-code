@@ -2,7 +2,7 @@ const readLines = require("../utils/readLines");
 
 function format_input(line) {
   // Line format :
-  // (min)-(max) (letter): (password)
+  // (posA)-(posB) (letter): (password)
   const [_, posA, posB, letter, password] = line.match(
     /([0-9]+)-([0-9]+) ([a-z]): ([a-z]+)/
   );
