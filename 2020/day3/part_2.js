@@ -5,7 +5,7 @@ function getTreeSum(input, slope) {
   const [right, down] = slope;
   const treeSum = input.reduce((sum, currentLine, index) => {
     if (index % down !== 0) return sum;
-    const charPos = (right * index) % lineLength;
+    const charPos = ((right / down) * index) % lineLength;
     if (currentLine.charAt(charPos) === "#") return sum + 1;
     return sum;
   }, 0);
