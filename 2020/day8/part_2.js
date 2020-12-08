@@ -8,16 +8,6 @@ function format_line(line) {
   };
 }
 
-function findAvailableContainers(color, rules) {
-  const containers = rules
-    .filter((rule) => rule.content.includes(color))
-    .map((rule) => rule.color);
-  const subContainers = containers.flatMap((color) =>
-    findAvailableContainers(color, rules)
-  );
-  return [...containers, ...subContainers];
-}
-
 function exec(input) {
   let index = 0;
   let acc = 0;
