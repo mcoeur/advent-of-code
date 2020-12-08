@@ -27,7 +27,7 @@ function findAvailableContainers(color, rules) {
 
   while (1) {
     if (history.includes(index)) {
-      console.log("Inifite loop detected");
+      console.log("Infinite loop detected");
       break;
     }
     history.push(index);

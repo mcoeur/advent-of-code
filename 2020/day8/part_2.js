@@ -15,7 +15,7 @@ function exec(input) {
 
   while (1) {
     if (history.includes(index)) {
-      console.log("Inifite loop detected", acc);
+      console.log("Infinite loop detected", acc);
       return null;
     }
     if (index >= input.length) {
