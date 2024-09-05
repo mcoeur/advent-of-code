@@ -27,7 +27,8 @@ Long story short, here is my test bench for the project :
 
 ![Breadboard Schematics](breadboard.png)
 
-| Day                                         | Status | Run time |
-| ------------------------------------------- | ------ | -------- |
-| [Day 0](./day_00/README.md)                 | ✅     | -        |
-| [Day 1 - Part 1](./day_01_part_1/README.md) | ✅     | 49ms     |
+| Day                               | Status | Run time |
+| --------------------------------- | ------ | -------- |
+| [Day 0](./day_00)                 | ✅     | -        |
+| [Day 1 - Part 1](./day_01_part_1) | ✅     | 49ms     |
+| [Day 1 - Part 2](./day_01_part_2) | ✅     | 15ms     |

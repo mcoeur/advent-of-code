@@ -7,3 +7,5 @@ I needed to make sure that I could write from the SD card and display text on th
 For some reason, the `autoScroll()` function from the [LiquidCrystal](https://www.arduino.cc/reference/en/libraries/liquidcrystal/) official Arduino library was glitchy. To prevent any headache, and in order to not waste time on this, I decided to reimplement a quick and dirty `append` function that did just that (wrapped in a small `LCDScreen` class).
 
 With this out of the way, let's get to the good stuff !
+
+[Next : Day 1 - Part 1](./day_01_part_1)

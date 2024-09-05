@@ -1,4 +1,4 @@
-# Day 0, Part 1
+# Day 1, Part 1
 
 Let's warm up with [day one](https://adventofcode.com/2015/day/1).
 
@@ -13,3 +13,5 @@ I could not find a way to link to libraries outside of the working folder in the
 Runtime : 49ms
 
 ![The result of day one, part one](./breadboard_01-1.jpg)
+
+[Next : Day 1 - Part 2](./day_01_part_2)
