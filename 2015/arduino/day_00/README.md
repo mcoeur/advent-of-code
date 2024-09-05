@@ -8,4 +8,4 @@ For some reason, the `autoScroll()` function from the [LiquidCrystal](https://ww
 
 With this out of the way, let's get to the good stuff !
 
-[Next : Day 1 - Part 1](./day_01_part_1)
+[Next : Day 1 - Part 1](../day_01_part_1)
