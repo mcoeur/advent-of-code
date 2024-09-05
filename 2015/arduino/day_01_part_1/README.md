@@ -14,4 +14,4 @@ Runtime : 49ms
 
 ![The result of day one, part one](./breadboard_01-1.jpg)
 
-[Next : Day 1 - Part 2](./day_01_part_2)
+[Next : Day 1 - Part 2](../day_01_part_2)
